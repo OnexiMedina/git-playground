@@ -22,9 +22,9 @@ html, body {
 
 body{
 	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
-	text-align: left; /* Alignment of the text */
-	color: black; /* Main text color */
-	background: white; /* Main text background color */
+	text-align: center; /* Alignment of the text */
+	color: #4266eb; /* Main text color */
+	background: black; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
 }
 
@@ -35,8 +35,8 @@ a {                  /* A stands for link, so this section is setting the defaul
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
-	color: white;
+	text-align: center;
+	color: #ebc942;
 }
 
 h2 {		     /* This styles the headers within the page */
@@ -50,14 +50,14 @@ h2 {		     /* This styles the headers within the page */
 div.section {
 	padding: 1em;
 	margin-bottom: 0;
-	text-align: justify;
+	text-align: center;
 
 }
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background: #FF9900;
-	color: black;
+	background: black;
+	color: #ebc942;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
 }
@@ -72,6 +72,13 @@ div.section {
 	height: 110px;
 	background: white;
 	text-align: center;
+}
+
+.poembox {
+	padding-left: -250px;
+	padding-right: -px;
+	box-shadow: 5px 5px 10px 5px #888888;
+	justify-content: center;
 }
 
 /* This alters the appearance of the div with id="whoweare" */

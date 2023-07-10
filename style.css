@@ -18,6 +18,7 @@
 html, body {
 	margin: 0;  /* Margin is the amount of space between the border of an element, and the elements outside it. */
 	padding: 0; /* Padding is the amount of space between the border of an element, and the elements inside it. */
+	max-width: 100%;
 }
 
 body{
@@ -48,10 +49,9 @@ h2 {		     /* This styles the headers within the page */
 
 /* This section alters the appearance of all divs with the class "section", which is all of the divs in our html file.  We can use it to specify style elements that we want to be the same accross divs. */
 div.section {
+	margin: 0;
 	padding: 1em;
-	margin-bottom: 0;
 	text-align: center;
-
 }
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
@@ -85,12 +85,30 @@ div.section {
 #whoweare {
 	background: white;
 	color: black; 
+	text-align: left;
+	max-height: max-content;
+}
+
+.whoweare-image{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.whoweare-text{
+	width: 50%;
+	float: right;
+	padding-top: 60px;
 }
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
-.minileft {
-	float: left;
-	height: 100%;
-	margin-bottom:1.5em;
-	margin-right: 1em;
+.minileft{
+	text-align: center;
+	align-content: center;
+	padding: 0%;
+}
+
+img{
+	width: 600px;
+	max-width: 100%;
 }

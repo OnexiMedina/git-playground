@@ -49,10 +49,9 @@ h2 {		     /* This styles the headers within the page */
 
 /* This section alters the appearance of all divs with the class "section", which is all of the divs in our html file.  We can use it to specify style elements that we want to be the same accross divs. */
 div.section {
+	margin: 0;
 	padding: 1em;
-	margin-bottom: 0;
 	text-align: center;
-
 }
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
